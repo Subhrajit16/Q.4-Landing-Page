@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .top {
+            height: 50px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .navbar {
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+
+            align-items: center;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin-left: 5vw;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: black;
+            padding: 1.5vw;
+        }
+
+        .btnContainer {
+            margin-right: 5vw;
+            display: flex;
+            gap: 30px;
+            height: 38px;
+
+        }
+
+        .btnContainer button {
+            font-size: 1.1rem;
+            padding: 5px 15px;
+            border-radius: 30px;
+            border: 1px solid black;
+        }
+
+        #signup {
+            background-color: yellow;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .left {
+
+            height: 75vh;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inside-left {
+            padding: 20px;
+            width: 50%;
+            height: fit-content;
+            background-color: rgb(234, 231, 227);
+        }
+
+        .inside-left p {
+            padding: 20px 0;
+        }
+
+        .right {
+            border: 2px solid black;
+            width: 50%;
+            height: 75vh;
+        }
+
+        .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        #btn3 {
+            font-size: 1.1rem;
+            padding: 5px 15px;
+            border-radius: 30px;
+            background-color: yellow;
+        }
+        footer{
+            height: 75px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nostrum!
+    </div>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="btnContainer">
+            <button>Login</button>
+            <button id="signup">Sign Up</button>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="inside-left">
+                    <h1>Create must click Landing Page</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vitae delectus, iusto tempore
+                        quia
+                        eius reprehenderit in quae ea magnam.</p>
+                    <button id="btn3">Read More</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="lapwork.jpeg" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto porro reiciendis aut obcaecati deserunt deleniti
+        architecto hic saepe dolor sapiente.
+    </footer>
+</body>
+
+</html>
